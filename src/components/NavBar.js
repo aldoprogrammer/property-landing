@@ -12,13 +12,11 @@ const NavBar = () => {
         
         <img src={Logo} alt="Logo" className="h-8 w-8" />
         
-        <nav class="space-x-4">
-            <a href="#" class="hover:text-gray-400">Be a leader</a>
-            <a href="#" class="hover:text-gray-400">Be a Borrower</a>
-            <a href="#" class="hover:text-gray-400">Available Loans</a>
-            <a href="#" class="hover:text-gray-400">Contact Us</a>
-            <a href="#" class="hover:text-gray-400">Login</a>
-            <button>Register</button>
+        <nav class="space-x-4 navbarKita">
+            <a href="#" class="hover:text-gray-400 utama">Home</a>
+            <a href="#" class="hover:text-gray-400">About Us</a>
+            <a href="#" class="hover:text-gray-400">Services</a>
+            <a href="#" class="hover:text-gray-400">Contact</a>
         </nav>
     </div>
 </div>

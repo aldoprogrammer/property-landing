@@ -1,29 +1,57 @@
 import React from 'react';
-import Image1 from '../assets/6.jpg';
-import { SearchOutlined } from '@ant-design/icons';
+import Image1 from '../assets/7.jpg';
+import { SearchOutlined, ShoppingCartOutlined, CheckCircleOutlined, RightSquareOutlined, GoldOutlined, UpCircleOutlined } from '@ant-design/icons';
+import './NavBar.css';
 
 const Hero = () => {
   return (
-    <div className="border-8 border-blue-200 relative h-96">
+    <div className="relative h-96">
       <img src={Image1} alt="Your Image" className="w-full h-full object-cover" />
       <div className="absolute inset-0 top-10 flex flex-col items-center text-white">
-        <h1 className="text-5xl font-bold text-gray-900">
-          Your Property Lending 
+        <h1 className="text-5xl font-bold text-white">
+        Make Your Dreams Come True
         </h1>
-        <h1 className='text-5xl font-bold text-gray-900'>Club</h1>
-        <p className="mt-2 text-lg font-bold text-gray-900">
-          Number One in Family, and you can find Houses of Various 
+        <p className="mt-2 text-lg font-bold text-white">
+        Whatever your goal is, we can help you get pre-
         </p>
-        <p className="text-lg font-bold text-gray-900">
-        Types here, and you can rent or buy them directly.
+        <p className="text-lg font-bold text-white">
+        approved for the best possible mortgage
         </p>
-        <div className="flex items-center justify-center mt-4 bg-white p-4 rounded-2 h-20 w-96">
-        
-          <input type="text"  className="text-black text-4xl form-input px-4 py-3 outline-none h-20 w-96" placeholder="Search your houses ..."  />
-          <button className="bg-blue-400  hover:bg-blue-500 text-white rounded-md p-1 text-2xl px-4 py-3  h-20 w-96">Search</button>
+        <div className="flex items-center justify-center mt-4">
+        <input
+            type="email"
+            placeholder="Enter your email"
+            className="border-2 border-gray-300 p-3 inputEmail text-black"
+          />
+          <button className="bg-blue-600 text-white p-3 iniBtn">
+            Join Waitlist
+          </button>
         </div>
       </div>
+      <div className="sectionBawah">
+        <div className="kotakSatu">
+        <ShoppingCartOutlined  className="iniIcon" />
+         <span>Low Interest Rate</span><br/>
+         <p className="gede">From 3.75%</p>
+        </div>
+        <div className="kotakDua">
+        <GoldOutlined className="iniIcon" />
+        <span>Amount of Credit</span><br/>
+         <p className="gede">Up to $7M</p>
+        </div>
+        <div className="kotakTiga">
+        <RightSquareOutlined className="iniIcon" />
+        <span>Amount of Credit</span><br/>
+         <p className="gede">Up to $7M</p>
+        </div>
+        <div className="kotakEmpat">
+        <UpCircleOutlined className="iniIcon"/>
+        <span>Amount of Credit</span><br/>
+         <p className="gede">Up to $7M</p>
+        </div>
     </div>
+    </div>
+    
   );
 };
 

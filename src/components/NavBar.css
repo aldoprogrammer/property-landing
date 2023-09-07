@@ -9,3 +9,292 @@ button {
 button:hover{
     color:orange;
 }
+
+.navbarKita{
+    margin-right: 50px;
+}
+
+.navbarKita .utama {
+    color: skyblue;
+}
+
+.inputEmail {
+    width: 300px;
+    opacity: 0.8;
+}
+
+.iniBtn {
+    width: 140px;
+}
+
+.sectionBawah {
+    display: flex;
+    
+    background: #F4F8F7;
+    justify-content: center;
+    align-items: center;
+    height: 159px;
+    
+}
+
+.sectionBawah div {
+    width: 230px;
+    margin-right:10px;
+    padding: 9px;
+}
+
+  
+  .kotak {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add spacing between items */
+  }
+  
+  .kotak span,
+  .kotak p {
+    display: inline; /* Display span and p elements horizontally */
+    margin-left: 10px; /* Add spacing between span and p elements */
+  }
+
+.sectionBawah p {
+    font-size: 20px;
+    margin-left: 7px;
+  }
+
+  .iniIcon {
+    font-size: 30px;
+    margin-right: 8px;
+  }
+
+  .offer {
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+  .whatOffer {
+    font-size: 23px;
+  }
+
+  .offer h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .offer .biru {
+    color: blue;
+  }
+
+  .centered-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .centered-row .box {
+    margin-right: 40px;
+  }
+
+  .offer .atas {
+    font-weight: bold;
+  }
+
+  .judulAplikasi {
+    font-size: 30px;
+    color: white; /* Set the text color to white */
+    font-weight: bold; /* Make the text bold */
+  }
+
+  .aplikasi {
+    display: flex;
+    justify-content: center;
+    background: #41618E;
+    padding: 18px;
+    margin-bottom: 100px;
+    position: relative;
+  }
+
+  .image {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .image img {
+    height: 170px;
+  }
+  
+  .bagian-Kanan {
+    width: 400px;
+    margin-left: 50px;
+    text-align: left; 
+  }
+
+  .bagian-Kanan p {
+    color: white;
+  }
+
+  .logoApk{
+    
+        display: flex;
+        flex-direction: row;
+  }
+
+  .logoApk img {
+    width: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .work {
+    margin: 40px 0;
+  }
+  .work-kartu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kartuu {
+    justify-content: center;  
+    border-radius: 10px;
+    display: flex;
+    flex-direction: flex-between;
+    color: white;
+    margin: 10px 0;
+    margin-left: 300px;
+    width: 800px;
+    height: 200px;
+    background: #001533;
+    padding: 20px;
+  }
+
+.atasss {
+    font-weight: bold;
+    
+}
+
+   .work h2 {
+    font-weight: bold;
+    font-size: 23px;
+   }
+
+   .work  .biru {
+    color: blue;
+   }
+
+   .adnih {
+    text-align: left; 
+    margin-top: 50px;
+   }
+   
+
+   .gambarKecil {
+    width: 300px;
+    margin-left: 20px;
+    justify-content: center;
+    
+   }
+
+   .gambarKecil img{
+    height: 120px;
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.5);
+   }
+
+   .terakhir {
+    margin-left: 90px;
+   }
+
+   .adnih p,
+.adnih h2 {
+  font-size: 16px;
+}
+
+.tulisan-kanan img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+
+.contact {
+    display: flex;
+    background: #41618E;
+    height: 260px;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+.tulisan-kiri {
+    width: 400px;
+    margin-left: 220px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.inibold {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.niFooter {
+    background: #263238;
+    height: 350px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    color: white;
+    text-align: left;
+}
+
+.bagianKiri img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.bagianKiri {
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 280px;
+   
+}
+
+.sosmed{
+    margin-top: 10px;
+    margin-left: 29px;
+}
+
+.sosmed1 {
+    margin-right: 9px;
+}
+
+.bagianKiri p {
+    margin-left: 30px;
+}
+
+.company {
+    margin-top: 50px;
+    margin-left: 420px;
+    width: 150px;
+   
+}
+
+.Support {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 150px;
+   
+}
+
+.inputin {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 200px;
+}

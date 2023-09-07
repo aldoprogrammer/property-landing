@@ -1,14 +1,22 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
-import Content from './components/Content';
+import Offer from './components/Offer';
+import Aplikasi from './components/Aplikasi';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
     <NavBar />
       <Hero />
-      <Content />
+      <Offer />
+      <Aplikasi />
+      <Work/>
+      <Contact/>
+      <Footer />
     </div>
   );
 }
